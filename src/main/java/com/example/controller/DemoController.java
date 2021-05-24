@@ -13,10 +13,18 @@ public class DemoController {
 		return("Hai All");
 	}
 	
+
 	@RequestMapping(value = "/gupta",method = RequestMethod.GET)
 	public String method3()
 	{
 		return("Hai All from gupta");
+	}
+
+	@RequestMapping(value = "/revanth",method = RequestMethod.GET)
+	public String method2()
+	{
+		return("Hai this is mwthod2 by revanth");
+
 	}
 
 }
